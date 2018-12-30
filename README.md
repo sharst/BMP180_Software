@@ -1,21 +1,16 @@
-**NOTE:** *This product has been retired from our catalog. If you are looking for more up-to-date info, please check out some of these resources to see how other users are still hacking and improving on this product.*
-* *[SparkFun Forum](https://forum.sparkfun.com/)*
-* *[Comments Here on GitHub](https://github.com/sparkfun/BMP180_Breakout_Arduino_Library/issues)*
-* *[IRC Channel](https://www.sparkfun.com/news/263)*
-
-SparkFun BMP180_Breakout Arduino Library
+SparkFun BMP180_Breakout Arduino Library, adapted to use software I2C
 ========================================
 
 ![BMP180 Breakout](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/8/2/4/11824-01.jpg)
 
 [*SEN-11824*](https://www.sparkfun.com/products/11824)
 
-This archive contains an Arduino library and example sketch showing how to use this sensor. The library must be installed onto your computer in order for the example code to work correctly.
+This archive contains an Arduino library. The library must be installed onto your computer.
+This library is dependent on the SoftI2CMaster library, see https://github.com/felias-fogg/SoftI2CMaster. If you want to use this library clone this one as well.
 
 Repository Contents
 -------------------
 
-* **/examples** - Example sketches for the library (.ino). Run these from the Arduino IDE. 
 * **/src** - Source files for the library (.cpp, .h).
 * **keywords.txt** - Keywords from this library that will be highlighted in the Arduino IDE. 
 * **library.properties** - General library properties for the Arduino package manager. 
